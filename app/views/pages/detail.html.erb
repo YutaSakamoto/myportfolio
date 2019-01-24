@@ -1,0 +1,58 @@
+<%= render 'shared/navbar' %>
+
+<!-- projects -->
+  <div class="container-fluid mt-4">
+      <div class="row">
+          <div class="col text-center mb-3">
+            <h1 class="text-info display-5">開発例</h1> <hr>
+            <p class="load text-secondary">これまでの学習で開発した WEBページ ＆ アプリケーション です。</p>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 mt-3">
+          <%= image_tag 'company.png', :size=>"250x250" %>
+
+          <h4 class="my-3 text-info text-center">企業紹介LP</h4>
+          <%= link_to '詳細ページへ', '/details/company', class: "btn btn-success m-3 text-center" %>
+          <p class="text-muted p-3 mb-5">
+            - HTML <br> - CSS <br> - Bootstrap <hr>
+            クラウドソーシングのプロジェクトを参考に作成しました。
+          </p>
+        </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-6 mt-3">
+          <%= image_tag 'intro.png', :size=>"250x250" %>
+          <h4 class="my-3 text-info text-center">アプリ紹介LP</h4>
+          <%= link_to '詳細ページへ', '/details/intro', class: "btn btn-success m-3 text-center" %>
+          <p class="text-muted p-3">
+            - HTML <br> - CSS <br> - jQuery <br> - Bootstrap <hr>
+            アプリ紹介用のページを自作しました。
+            画面に動きをつけた構成になっています。
+          </p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 mt-3">
+          <%= image_tag 'app1.png', :size=>"250x250" %>
+          <h4 class="my-3 text-info text-center">アートシェアアプリ</h4>
+          <%= link_to 'GitHubへ', 'https://github.com/YutaSakamoto/ArtShare', class: "btn btn-success m-3 text-center" %>
+          <p class="text-muted p-3">
+            - Ruby on Rails <br> - ユーザー登録機能 <br> - 作品投稿機能 <br> - 予約機能
+            <br> - Google map 表示機能 <br> - 予約通知機能 <br> - stripe 支払い機能 <hr>
+            各々の実装方法を調べながら作成しました。
+            シェアリングサービスに必要だと思われる機能を考えて工夫しました。
+            stripe や Google map API の実装に苦労しました。
+          </p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 mt-3">
+          <%= image_tag 'app2.png', :size=>"250x250" %>
+          <h4 class="my-3 text-info text-center">アイデア共有アプリ</h4>
+          <%= link_to 'アプリへ', 'https://ideahacks22222.herokuapp.com/', class: "btn btn-success m-3 " %>
+          <p class="text-muted p-3">
+            - Ruby on Rails <br> - ユーザー登録機能 <br> - アイデア投稿・募集機能 <br>
+            - カテゴリー分け機能 <br> - お気に入り機能 <br> - フォロー機能 <br>
+            - チャット機能 <br> - 検索機能 <hr>
+            カテゴリー分け、検索機能の実装を頑張りました。
+          </p>
+      </div>
+    </div>
+  </div>

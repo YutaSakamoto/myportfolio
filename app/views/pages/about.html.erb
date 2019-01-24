@@ -1,0 +1,46 @@
+<%= render 'shared/navbar' %>
+
+<section class="p-sm-5 p-2 bg-secondary">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col text-center mb-5">
+        <h1 class="text-success display-3">About Me</h1>
+        <p class="lead text-light">簡単な自己紹介を下記にまとめました</p>
+      </div>
+    </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 sm-10 mx-auto mb-4">
+      <div class="card" style="width: 18rem;">
+        <%= image_tag 'basket.jpg', :size=>"286x300" %>
+        <div class="card-body">
+          <h5 class="card-title text-center text-success mb-4">バスケット</h5>
+          <p class="card-text text-secondary">小学校から高校まで部活動していました。観戦もよくしています。</p>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-lg-4 sm-10 mx-auto mb-4">
+        <div class="card" style="width: 18rem;">
+          <%= image_tag 'piano.jpg', :size=>"286x300" %>
+          <div class="card-body">
+            <h5 class="card-title text-center text-success mb-4">ピアノ</h5>
+            <p class="card-text text-secondary">2018年より練習を開始して楽しく継続しています。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 sm-10 mx-auto mb-4">
+        <div class="card" style="width: 18rem;">
+          <%= image_tag 'book.jpg', :size=>"286x300" %>
+          <div class="card-body">
+            <h5 class="card-title text-center text-success mb-4">読書</h5>
+            <p class="card-text text-secondary">時間があれば読書をしています。科学系が好きです。</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
