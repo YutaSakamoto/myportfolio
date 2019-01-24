@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 
 
-  
+
 
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
@@ -58,4 +58,5 @@ $(document).ready(function() {
 //= require activestorage
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require jquery
 //= require_tree .
