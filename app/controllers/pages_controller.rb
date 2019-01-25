@@ -8,5 +8,6 @@ class PagesController < ApplicationController
 
   def detail
   end
+
   
 end
