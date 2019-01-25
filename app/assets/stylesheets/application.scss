@@ -183,11 +183,8 @@ header {
 
   /* contact */
 .contact {
-    background: linear-gradient(80deg,
-     rgba(46, 255, 220, 1) 0%,
-     rgba(46, 255, 220, 0.7) 50%,
-     transparent 50%),
-     url(images/contact.jpg) center center no-repeat /cover;
+    background-image: image-url("contact.jpg");
+    background-size: center center no-repeat /cover
   }
 
   .input {
